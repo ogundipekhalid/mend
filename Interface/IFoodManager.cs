@@ -6,7 +6,7 @@ namespace FDMS.Interface
     public interface IFoodManager
     {
         //we crate an intance of Food the Food as data type just like int string 
-         public void  CreateedFood(string foodName, int Price);
+         public void  CreateedFood(string fooName,string foodPrice, string refno);
          public void UpdateFood(string FoodName, string newFoodName, int newPrice);
          public void Deletfood(int refno);//deleting whole claass of intance food object
          public Food GetFood(string food);//get before deleting

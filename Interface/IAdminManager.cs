@@ -7,6 +7,7 @@ namespace FDMS.Interface
         public void IUpdateFood(string fistName,string lastName,string post);
         public void IDeletfood(Admin admin);
         public Admin IGetFood(string name);
+        public Admin L  
        
     }
 }
